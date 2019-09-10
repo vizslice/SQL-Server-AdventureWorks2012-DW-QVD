@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>50621</QvBuildNo>
+   <CreatorDoc>C:\Users\QLIK\Documents\Qlik\Sense\Apps\SQL Extractor.qvf</CreatorDoc>
+   <CreateUtcTime>2019-09-09 14:10:57</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>DimEmployee</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>EmployeeKey</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>296</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>1480</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>ParentEmployeeKey</FieldName>
+       <BitOffset>41</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>47</NoOfSymbols>
+       <Offset>1480</Offset>
+       <Length>235</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>EmployeeNationalIDAlternateKey</FieldName>
+       <BitOffset>32</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>ASCII</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>290</NoOfSymbols>
+       <Offset>1715</Offset>
+       <Length>3141</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>ParentEmployeeNationalIDAlternateKey</FieldName>
+       <BitOffset>137</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>ASCII</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>0</NoOfSymbols>
+       <Offset>4856</Offset>
+       <Length>0</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>SalesTerritoryKey</FieldName>
+       <BitOffset>73</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>11</NoOfSymbols>
+       <Offset>4856</Offset>
+       <Length>55</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>FirstName</FieldName>
+       <BitOffset>16</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>ASCII</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>224</NoOfSymbols>
+       <Offset>4911</Offset>
+       <Length>1682</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>LastName</FieldName>
+       <BitOffset>55</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>ASCII</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>270</NoOfSymbols>
+       <Offset>6593</Offset>
+       <Length>2325</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>MiddleName</FieldName>
+       <BitOffset>77</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>ASCII</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>37</NoOfSymbols>
+       <Offset>8918</Offset>
+       <Length>166</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>NameStyle</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>9084</Offset>
+       <Length>5</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Title</FieldName>
+       <BitOffset>9</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>ASCII</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>67</NoOfSymbols>
+       <Offset>9089</Offset>
+       <Length>1694</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>HireDate</FieldName>
+       <BitOffset>24</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>DATE</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt>YYYY-MM-DD</Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>164</NoOfSymbols>
+       <Offset>10783</Offset>
+       <Length>820</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+         <String>$timestamp</String>
+         <String>$date</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>BirthDate</FieldName>
+       <BitOffset>64</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>DATE</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt>YYYY-MM-DD</Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>271</NoOfSymbols>
+       <Offset>11603</Offset>
+       <Length>1355</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>LoginID</FieldName>
+       <BitOffset>96</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>ASCII</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>290</NoOfSymbols>
+       <Offset>12958</Offset>
+       <Length>7074</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>EmailAddress</FieldName>
+       <BitOffset>110</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>ASCII</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>290</NoOfSymbols>
+       <Offset>20032</Offset>
+       <Length>8234</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Phone</FieldName>
+       <BitOffset>119</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>ASCII</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>288</NoOfSymbols>
+       <Offset>28266</Offset>
+       <Length>4060</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>MaritalStatus</FieldName>
+       <BitOffset>144</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>ASCII</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>32326</Offset>
+       <Length>6</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>EmergencyContactName</FieldName>
+       <BitOffset>128</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>ASCII</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>290</NoOfSymbols>
+       <Offset>32332</Offset>
+       <Length>4327</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>EmergencyContactPhone</FieldName>
+       <BitOffset>157</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>ASCII</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>288</NoOfSymbols>
+       <Offset>36659</Offset>
+       <Length>4060</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>SalariedFlag</FieldName>
+       <BitOffset>145</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>40719</Offset>
+       <Length>10</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Gender</FieldName>
+       <BitOffset>146</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>ASCII</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>40729</Offset>
+       <Length>6</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>PayFrequency</FieldName>
+       <BitOffset>166</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>40735</Offset>
+       <Length>10</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>BaseRate</FieldName>
+       <BitOffset>83</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>MONEY</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>53</NoOfSymbols>
+       <Offset>40745</Offset>
+       <Length>441</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>VacationHours</FieldName>
+       <BitOffset>89</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>100</NoOfSymbols>
+       <Offset>41186</Offset>
+       <Length>500</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>SickLeaveHours</FieldName>
+       <BitOffset>151</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>51</NoOfSymbols>
+       <Offset>41686</Offset>
+       <Length>255</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>CurrentFlag</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>41941</Offset>
+       <Length>5</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>SalesPersonFlag</FieldName>
+       <BitOffset>167</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>41946</Offset>
+       <Length>10</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>DepartmentName</FieldName>
+       <BitOffset>147</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>ASCII</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>16</NoOfSymbols>
+       <Offset>41956</Offset>
+       <Length>262</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>StartDate</FieldName>
+       <BitOffset>47</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>DATE</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt>YYYY-MM-DD</Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>170</NoOfSymbols>
+       <Offset>42218</Offset>
+       <Length>850</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+         <String>$timestamp</String>
+         <String>$date</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>EndDate</FieldName>
+       <BitOffset>107</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>DATE</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt>YYYY-MM-DD</Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>6</NoOfSymbols>
+       <Offset>43068</Offset>
+       <Length>30</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+         <String>$timestamp</String>
+         <String>$date</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Status</FieldName>
+       <BitOffset>105</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>ASCII</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>43098</Offset>
+       <Length>9</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>EmployeePhoto</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>ASCII</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>43107</Offset>
+       <Length>15</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>21</RecordByteSize>
+   <NoOfRecords>296</NoOfRecords>
+   <Offset>43122</Offset>
+   <Length>6216</Length>
+   <Lineage></Lineage>
+   <Comment></Comment>
+ </QvdTableHeader>
+                         	   
+                                                                      !   "   #   $   %   &   '   (   )   *   +   ,   -   .   /   0   1   2   3   4   5   6   7   8   9   :   ;   <   =   >   ?   @   A   B   C   D   E   F   G   H   I   J   K   L   M   N   O   P   Q   R   S   T   U   V   W   X   Y   Z   [   \   ]   ^   _   `   a   b   c   d   e   f   g   h   i   j   k   l   m   n   o   p   q   r   s   t   u   v   w   x   y   z   {   |   }   ~      Ä   Å   Ç   É   Ñ   Ö   Ü   á   à   â   ä   ã   å   ç   é   è   ê   ë   í   ì   î   ï   ñ   ó   ò   ô   ö   õ   ú   ù   û   ü   †   °   ¢   £   §   •   ¶   ß   ®   ©   ™   ´   ¨   ≠   Æ   Ø   ∞   ±   ≤   ≥   ¥   µ   ∂   ∑   ∏   π   ∫   ª   º   Ω   æ   ø   ¿   ¡   ¬   √   ƒ   ≈   ∆   «   »   …       À   Ã   Õ   Œ   œ   –   —   “   ”   ‘   ’   ÷   ◊   ÿ   Ÿ   ⁄   €   ‹   ›   ﬁ   ﬂ   ‡   ·   ‚   „   ‰   Â   Ê   Á   Ë   È   Í   Î   Ï   Ì   Ó   Ô      Ò   Ú   Û   Ù   ı   ˆ   ˜   ¯   ˘   ˙   ˚   ¸   ˝   ˛   ˇ                      	  
+                                               !  "  #  $  %  &  '  (                p      Ω   ±   …   º   o   Y   ö      è   ÷   ä   W   (   	   ∫   £   Ã   L       ﬁ   ~      \   ì   é   ,   +   ¢   5   .     ò      B   3     I     "  &  14417807 253022876 509647174 112457891 480168528 24756624 309738752 690627818 695256908 912265825 998320692 245797967 844973625 233069302 132674823 446466105 565090917 494170342 9659517 443968955 277173473 835460180 687685941 498138869 360868122 964089218 384162788 749389530 571658797 535145551 761597760 271438431 160739235 586486572 337752649 113695504 276751903 630184120 545337468 713403643 885055826 441044382 718299860 685233686 295971920 95958330 332040978 857651804 553069203 351069889 370989364 275962311 36151748 540688287 568596888 918737118 801758002 415823523 363923697 674171828 138280935 476115505 502058701 7201901 97728960 525932996 843479922 370487086 54759846 619308550 121491555 420776180 604664374 778552911 435234965 339712426 403414852 368920189 811994146 330211482 632092621 264306399 981597097 693325305 521265716 746373306 750905084 514829225 750246141 345106466 19312190 212801092 769680433 60517918 431859843 621209647 420023788 199546871 830150469 322160340 827686041 671089628 231203233 204035155 992874797 767955365 342607223 45615666 295847284 733022683 381772114 187369436 364818297 658797903 886023130 749211824 643805155 92096924 72636981 563680513 584205124 458159238 712885347 87268837 969985265 539490372 242381745 929666391 948320468 931190412 153288994 981495526 363996959 585408256 386315192 167554340 410742000 746201340 30845 184188301 398737566 764853868 319472946 456839592 131471224 259388196 812797414 519899904 314747499 858323870 25011600 436757988 652535724 416679555 377784364 66073987 999440576 134969118 551834634 305522471 260770918 788456780 370581729 603686790 152085091 663843431 227319668 578953538 222400012 470689086 860123571 273260055 578935259 752513276 754372876 58317344 404159499 363910111 599942664 993310268 20244403 862951447 551346974 60114406 33237992 1300049 10708100 672243793 63761469 693168613 476980013 334834274 399658727 500412746 652779496 878395493 332349500 792847334 621932914 398223854 519756660 912141525 243322160 568626529 301435199 368691270 211789056 63179277 587567941 634335025 65848458 260805477 442121106 300946911 440379437 480951955 879342154 141165819 537092325 455563743 701156975 1662732 407505660 294148271 552560652 834186596 717889520 801365500 413787783 109272464 482810518 113393530 466142721 390124815 6298838 943170460 339233463 367453993 872923042 697712387 381073001 646304055 414476027 785853949 90888098 947029962 461786517 393421437 988315686 56772045 879334904 82638150 343861179 582347317 8066363 561196580 58791499 163347032 28414965 153479919 20269531 826454897 974026903 437296311 486228782 280633567 42487730 502097814 323403273 56920285 222969461 52541318 112432117 895209680 841560125 191644724 615389812 234474252 716374314 61161660 139397894 399771412 987554265 982310417 668991357 134219713 90836195 481044938 954276278 758596752                      
+         	   Guy Kevin Roberto Rob Thierry David JoLynn Ruth Gail Barry Jossef Terri Sidney Taylor Jeffrey Jo Doris John Diane Steven Peter Stuart Greg Zheng Ivo Paul Ashvini Kendall Paula Alejandro Garrett Jian Shuo Susan Vamsi Alice Simon Jinghao Michael Yvonne Peng Jean Russell A. Scott Fred Sariya Willis Jun Christian Reuben Kirk Tengiz Hanying Annik Suroor Deborah Jim Carole George Gary Cristian Raymond Janaina Bob Shammi Linda Mindy Wendy Kim Sandra Kok-Ho Douglas James Sean Nitin Rebecca Rajesh Vidur Nancy Pilar Laura Margie Zainal Lorraine Fadi Ryan Candy Nuan William Bjorn Scott Lane Pete Dan Lolan Mary Mindaugas Eric Ken Jason Mark Janeth Marc Gigi Frank Fran√ßois Jill Angela Matthias Bryan Jeff Eugene Barbara Chris Houman Sairaj Michiko Benjamin Cynthia Kathie Britta Brian Andy Yuhong Robert Andreas Reed Ramesh Stephanie Samantha Tawana Denise Hao Alex Brandon Dylan Shane Karen Jose Mandar Mikael Sameer Dragan Carol Don Alan Baris Steve Suchitra Terrence Chad Rostislav Belinda Katie Jack Andrew Nicole Anibal Grant Lionel Thomas Jimmy Lori Arvind Stefen Hazem Janet Elizabeth Terry Merav Kitti Jay Jan Brenda Shelley Gabe Mike Charles Ebru Sylvester Betsy Magnus Karan Mihail Bonnie Fukiko Hung-Fu Gordon Kimberly Sandeep Prasanna Min Pat Maciej Erin Patrick Ed Christopher Krishna Danielle Sootha Randy Olinda Ben Tom Ovidiu Annette Janice Reinout Stephen Wanida Sharon Sheela Jillian Tsvi Pamela Shu Jos√© Amy Jae Ranjit Tete Syed Rachel Lynn Gilbert Brown Tamburello Walters D'Hers Bradley Dobney Ellerbrock Erickson Johnson Goldberg Duffy Higa Maxwell Ford Hartwig Campbell Glimp Selikoff Krebs Munson Alderson Mu Salmre Komosinski Sharma Keil Barreto de Mattos McGuel Young Wang Eaton Kuppa Ciccu Rapier Liu Hines McKay Wu Trenary Hunter Wright Northup Harnpadoungsataya Cao Kleinerman Metters D'sa Koenigsbauer Ortiz Kharatishvili Feng Stahl Fatima Poe Scardelis Poland Li Yukish Petculescu Sam Bueno Hohman Mohamed Moschell Martin Kahn Ralls Re√°tegui Alayo Loh Hite Kramer Alexander Mirchandani Margheim Laszlo Patel Luthra Evans Anderson Ackerman Yalovsky Hamilton Steele Shoop Arifin Nay Fakhouri Cornelsen Spoon Yu Vong Rettig Gode Rothkugel Sacksteder Male Bacon Barber Song Nartker Gibson Krapauskas Gubbels S√°nchez Watters Harrington Esteves Ingle Matthew Singh Lee Ajenstat Tibbott Williams Barbariol Berndt Baker Hay Zabokritski Decker Preston Chai Wilson McArthur Walton Pournasseh Uddin Osada Randall Flood Simon Lloyd Norman Patten Ruth Rounthwaite Berglund Koch Meyyappan Conroy Smith Nusbaum Chen Nayberg Kogan Heidepriem Miller Kim Berge Lugo Samant Sandberg Tejani Tomic Philips Caron Hall Brewer Lawrence Cetinok Ray Masters Mohan Berg Earls Moreland Niswonger Shabalin Newman McAskill-White King Richins Hill Holliday Connelly Sousa Myer Culbertson Entin Penuchot Michaels Bischoff Vanderhyde Kane Rao Hesse Abolrous Sheperdigian Keyser Eminhizer Frum Netz LaMee Lertpiriyasuwat Adams Miksovsky Diaz Cencini Norred Okelberry Dyck Mares Seamans Raheem Altman Fitzgerald Ersan Valdez Goldstein Meisner Stadick Hedlund Khanna Homer Frintu Kearney Ogisu Ting Hee Zimmerman Abercrombie Kaliyath Samarawickrama Pellow Su Kurjan Coleman Dusza Hagens Wedge Martinez Dudenhoefer Cook Sunkammurali Penor Tiedt Charncherngkha Zwilling Reeves Creasey Turner Macrae Berry Vande Velde Cracium Galvin Hillmann Sullivan Jiang Benshoof Salavaria Wood Dempsey Welcker Word Blythe Mitchell Carson Vargas Reiter Ansman-Wolfe Ito Saraiva Alberts Pak Varkey Chudukatil Mensa-Annan Abbas Tsoflias R F B M Ann A K H Lee L T J V N W William C E O D S P Z Barreiro Gambaro G Beth X Y Q Oliver Sean I E. Richard U Michael Edvaldo     Production Technician - WC60 Marketing Assistant Engineering Manager Senior Tool Designer Tool Designer Marketing Manager Production Supervisor - WC60 Production Technician - WC10 Design Engineer Vice President of Engineering Production Supervisor - WC50 Production Technician - WC30 Production Control Manager Production Technician - WC45 Production Supervisor - WC10 Production Technician - WC20 Production Technician - WC40 Network Administrator Production Technician - WC50 Human Resources Manager Stocker Shipping and Receiving Clerk Quality Assurance Supervisor Information Services Manager Master Scheduler Marketing Specialist Recruiter Maintenance Supervisor Production Supervisor - WC40 Control Specialist Accounts Receivable Specialist Application Specialist Benefits Specialist Finance Manager Quality Assurance Technician Research and Development Engineer Shipping and Receiving Supervisor Document Control Manager Scheduling Assistant Assistant to the Chief Financial Officer Production Supervisor - WC20 Chief Executive Officer Database Administrator Production Supervisor - WC45 Document Control Assistant Production Supervisor - WC30 Accounts Manager Chief Financial Officer Vice President of Production Network Manager Human Resources Administrative Assistant Research and Development Manager Buyer Accounts Payable Specialist Accountant Quality Assurance Manager Facilities Manager Facilities Administrative Assistant Janitor Purchasing Assistant Senior Design Engineer North American Sales Manager Vice President of Sales Purchasing Manager Sales Representative European Sales Manager Pacific Sales Manager Yó  +ò  Lô  dô  jô  sô  yô  Ñô  Öô  ñô  ùô  üô  •ô  ±ô  ∏ô  ƒô  Àô  ÷ô  Œö  œö  –ö  —ö  “ö  ”ö  ‘ö  ’ö  ÷ö  ÿö  Ÿö  ⁄ö  €ö  ‹ö  ›ö  ﬁö  ﬂö  ‡ö  ‚ö  „ö  ‰ö  Âö  Êö  Áö  Ëö  Èö  Íö  Ïö  Ìö  Óö  Ôö  ö  Òö  Úö  Ûö  Ùö  ˆö  ˜ö  ¯ö  ˘ö  ˙ö  ˚ö  ¸ö  ˝ö  ˛ö   õ  õ  õ  õ  õ  õ  õ  õ  	õ  
+õ  õ  õ  õ  õ  õ  õ  õ  õ  õ  õ  õ  õ  õ  õ  õ  õ  õ  õ  õ   õ  !õ  "õ  #õ  $õ  %õ  'õ  (õ  )õ  *õ  +õ  ,õ  -õ  .õ  /õ  gõ  <ú  =ú  @ú  Eú  Kú  Lú  Oú  Pú  Sú  Wú  Zú  ]ú  _ú  dú  eú  iú  jú  oú  pú  qú  tú  vú  xú  yú  }ú  Äú  Ñú  Öú  àú  åú  èú  ìú  óú  òú  ôú  õú  ùú  ûú  ¨ù  ≠ù  æù  ¿ù  ≈ù   ù  Õù  ÿù  Ïù  Ûù  Ùù  ˛ù  ]û  ûü   ü  E†  Í†  7°  Œt  |  8j  aj  gT  ∑j  ]O  ÈO  ßJ  £O  €S  âe  @P  ©O  P  gP  ¨O  )P  ¶O   m  ôu  ›X  Al  Pq  ˛v  it  …r  öm  ±z   l  I~  .x  £v  ·n  ëm  Àn  YÄ  á~  Ã~  $l  ƒk  kg  qa    |  xo  Ÿp  Ëk  /v  w|  ”x  ¨x  FÄ  j  z  ?m  Èn  l  {  ˜v  Æm  ~}  ¶w  <_  Ãx  q  °r  N|  Öx  ]x  πw  ûk  r  ˆy  x  j{  ∑z  ±}  Yn  x  Ho  9~  g  –s  äv  Ûr  ßz  Ùk  @~  ë~  ∆f  l  vp  /t  ô  ±{  AÅ  j  fm  ™s  d[  ßg  0o  ¡x  ˜a  K~  ìz  Ôf  D{  3p  Å  Å|  @  «p  ‘Å   h  ~h  Sm  L|  T~  œ{  ‹k  *q  Hx  ¶e  Ï|  u   z  ﬂs  Å  r  mm  êv  wi  ¯v  §m  Èx  ∫~  k~  Zn  >}  ïw  Œ|  ù  Øm  7Ä  ˇk  Nm  ø{  `Ä  zz  –k  x  kz  &x  bo  qm  ~  gh  Xe  ôw  ∏y  ËÄ  Ä~  ùÅ  )|  <o  óx  ⁄k  ®Ä  Dn  µj  Éx  êt  Äv  Ô}  ~z  Åe   r  Ùi  çs  	  ?}  %z  ku  Sr  Âi  Ãk  on  bp  È  >z  πt  Xv   x  %|  ;j  v  ~  |  ˆz  q{  x}  ‘p  èx  Âd  ©e  ${  Éd  ¨d  ïd  ≥<  £e  âc  !{  ¯d  {  èd  ‹e  °<  {  ∞<  òd  ~K  J  ˘i  ™<  &g  ˛M  ∏d  ÷I  ≤e  -{  Ùh  ¨e  d  {  ß<  áh  Ωc  *{  Äh  •c  f  ÂL  )h  ¬n  Œn  ˜~  ≈p  MI  ÍV  Ún  ·m  ⁄n  ‘a  ≈q  ŒX  åj  i  Pj  s>  e8  &i  ¬Q  π`  zk  ∂n  tj  'k  e  adventure-works\guy1 adventure-works\kevin0 adventure-works\roberto0 adventure-works\rob0 adventure-works\thierry0 adventure-works\david0 adventure-works\jolynn0 adventure-works\ruth0 adventure-works\gail0 adventure-works\barry0 adventure-works\jossef0 adventure-works\terri0 adventure-works\sidney0 adventure-works\taylor0 adventure-works\jeffrey0 adventure-works\jo0 adventure-works\doris0 adventure-works\john0 adventure-works\diane0 adventure-works\steven0 adventure-works\peter0 adventure-works\stuart0 adventure-works\greg0 adventure-works\david1 adventure-works\zheng0 adventure-works\ivo0 adventure-works\paul0 adventure-works\ashvini0 adventure-works\kendall0 adventure-works\paula0 adventure-works\alejandro0 adventure-works\garrett0 adventure-works\jianshuo0 adventure-works\susan0 adventure-works\vamsi0 adventure-works\alice0 adventure-works\simon0 adventure-works\jinghao0 adventure-works\michael0 adventure-works\yvonne0 adventure-works\peng0 adventure-works\jean0 adventure-works\russell0 adventure-works\ascott0 adventure-works\fred0 adventure-works\sariya0 adventure-works\willis0 adventure-works\jun0 adventure-works\christian0 adventure-works\susan1 adventure-works\reuben0 adventure-works\kirk0 adventure-works\david2 adventure-works\tengiz0 adventure-works\hanying0 adventure-works\kevin1 adventure-works\annik0 adventure-works\suroor0 adventure-works\deborah0 adventure-works\jim0 adventure-works\carole0 adventure-works\george0 adventure-works\gary0 adventure-works\cristian0 adventure-works\raymond0 adventure-works\janaina0 adventure-works\bob0 adventure-works\shammi0 adventure-works\linda0 adventure-works\mindy0 adventure-works\wendy0 adventure-works\kim0 adventure-works\sandra0 adventure-works\kok-ho0 adventure-works\douglas0 adventure-works\james0 adventure-works\sean0 adventure-works\nitin0 adventure-works\diane1 adventure-works\rebecca0 adventure-works\rajesh0 adventure-works\vidur0 adventure-works\john1 adventure-works\nancy0 adventure-works\pilar0 adventure-works\david3 adventure-works\david4 adventure-works\laura0 adventure-works\margie0 adventure-works\zainal0 adventure-works\lorraine0 adventure-works\fadi0 adventure-works\ryan0 adventure-works\candy0 adventure-works\nuan0 adventure-works\william0 adventure-works\bjorn0 adventure-works\scott0 adventure-works\michael1 adventure-works\lane0 adventure-works\pete0 adventure-works\dan0 adventure-works\david5 adventure-works\lolan0 adventure-works\paula1 adventure-works\mary0 adventure-works\mindaugas0 adventure-works\eric0 adventure-works\ken0 adventure-works\jason0 adventure-works\mark0 adventure-works\janeth0 adventure-works\marc0 adventure-works\gigi0 adventure-works\paul1 adventure-works\frank0 adventure-works\fran√ßois0 adventure-works\diane2 adventure-works\jill0 adventure-works\angela0 adventure-works\matthias0 adventure-works\bryan0 adventure-works\jeff0 adventure-works\eugene0 adventure-works\barbara0 adventure-works\chris0 adventure-works\sean1 adventure-works\dan1 adventure-works\mark1 adventure-works\bryan1 adventure-works\houman0 adventure-works\sairaj0 adventure-works\michiko0 adventure-works\benjamin0 adventure-works\cynthia0 adventure-works\kathie0 adventure-works\britta0 adventure-works\brian0 adventure-works\david6 adventure-works\laura1 adventure-works\michael2 adventure-works\andy0 adventure-works\yuhong0 adventure-works\robert0 adventure-works\andreas0 adventure-works\reed0 adventure-works\linda1 adventure-works\james1 adventure-works\ramesh0 adventure-works\stephanie0 adventure-works\samantha0 adventure-works\tawana0 adventure-works\denise0 adventure-works\hao0 adventure-works\alex0 adventure-works\eugene1 adventure-works\brandon0 adventure-works\dylan0 adventure-works\shane0 adventure-works\john2 adventure-works\karen0 adventure-works\jose0 adventure-works\mandar0 adventure-works\mikael0 adventure-works\sameer0 adventure-works\dragan0 adventure-works\carol0 adventure-works\rob1 adventure-works\don0 adventure-works\alan0 adventure-works\david7 adventure-works\baris0 adventure-works\michael3 adventure-works\steve0 adventure-works\suchitra0 adventure-works\karen1 adventure-works\terrence0 adventure-works\barbara1 adventure-works\chad0 adventure-works\rostislav0 adventure-works\belinda0 adventure-works\katie0 adventure-works\russell1 adventure-works\jack0 adventure-works\andrew0 adventure-works\nicole0 adventure-works\frank1 adventure-works\peter1 adventure-works\anibal0 adventure-works\ken1 adventure-works\grant0 adventure-works\michael4 adventure-works\lionel0 adventure-works\thomas0 adventure-works\jimmy0 adventure-works\michael5 adventure-works\lori0 adventure-works\arvind0 adventure-works\stefen0 adventure-works\hazem0 adventure-works\janet0 adventure-works\elizabeth0 adventure-works\terry0 adventure-works\john3 adventure-works\merav0 adventure-works\brian1 adventure-works\kitti0 adventure-works\jay0 adventure-works\jan0 adventure-works\brenda0 adventure-works\andrew1 adventure-works\chris1 adventure-works\chris2 adventure-works\shelley0 adventure-works\gabe0 adventure-works\mike0 adventure-works\michael6 adventure-works\gary1 adventure-works\charles0 adventure-works\ebru0 adventure-works\sylvester0 adventure-works\brian2 adventure-works\linda2 adventure-works\betsy0 adventure-works\magnus0 adventure-works\karan0 adventure-works\mary1 adventure-works\kevin2 adventure-works\mihail0 adventure-works\bonnie0 adventure-works\fukiko0 adventure-works\hung-fu0 adventure-works\gordon0 adventure-works\kimberly0 adventure-works\kim1 adventure-works\sandeep0 adventure-works\prasanna0 adventure-works\frank2 adventure-works\min0 adventure-works\eric1 adventure-works\eric2 adventure-works\pat0 adventure-works\maciej0 adventure-works\erin0 adventure-works\patrick0 adventure-works\frank3 adventure-works\ed0 adventure-works\christopher0 adventure-works\patrick1 adventure-works\krishna0 adventure-works\lori1 adventure-works\danielle0 adventure-works\sootha0 adventure-works\michael7 adventure-works\randy0 adventure-works\john4 adventure-works\jack1 adventure-works\olinda0 adventure-works\stuart1 adventure-works\jo1 adventure-works\ben0 adventure-works\tom0 adventure-works\ovidiu0 adventure-works\annette0 adventure-works\janice0 adventure-works\reinout0 adventure-works\michael8 adventure-works\stephen0 adventure-works\wanida0 adventure-works\sharon0 adventure-works\john5 adventure-works\mary2 adventure-works\brian3 adventure-works\sheela0 adventure-works\michael9 adventure-works\linda3 adventure-works\jillian0 adventure-works\garrett1 adventure-works\tsvi0 adventure-works\pamela0 adventure-works\shu0 adventure-works\jos√©1 adventure-works\david8 adventure-works\amy0 adventure-works\jae0 adventure-works\ranjit0 adventure-works\tete0 adventure-works\syed0 adventure-works\rachel0 adventure-works\lynn0 guy1@adventure-works.com kevin0@adventure-works.com roberto0@adventure-works.com rob0@adventure-works.com thierry0@adventure-works.com david0@adventure-works.com jolynn0@adventure-works.com ruth0@adventure-works.com gail0@adventure-works.com barry0@adventure-works.com jossef0@adventure-works.com terri0@adventure-works.com sidney0@adventure-works.com taylor0@adventure-works.com jeffrey0@adventure-works.com jo0@adventure-works.com doris0@adventure-works.com john0@adventure-works.com diane0@adventure-works.com steven0@adventure-works.com peter0@adventure-works.com stuart0@adventure-works.com greg0@adventure-works.com david1@adventure-works.com zheng0@adventure-works.com ivo0@adventure-works.com paul0@adventure-works.com ashvini0@adventure-works.com kendall0@adventure-works.com paula0@adventure-works.com alejandro0@adventure-works.com garrett0@adventure-works.com jianshuo0@adventure-works.com susan0@adventure-works.com vamsi0@adventure-works.com alice0@adventure-works.com simon0@adventure-works.com jinghao0@adventure-works.com michael0@adventure-works.com yvonne0@adventure-works.com peng0@adventure-works.com jean0@adventure-works.com russell0@adventure-works.com ascott0@adventure-works.com fred0@adventure-works.com sariya0@adventure-works.com willis0@adventure-works.com jun0@adventure-works.com christian0@adventure-works.com susan1@adventure-works.com reuben0@adventure-works.com kirk0@adventure-works.com david2@adventure-works.com tengiz0@adventure-works.com hanying0@adventure-works.com kevin1@adventure-works.com annik0@adventure-works.com suroor0@adventure-works.com deborah0@adventure-works.com jim0@adventure-works.com carole0@adventure-works.com george0@adventure-works.com gary0@adventure-works.com cristian0@adventure-works.com raymond0@adventure-works.com janaina0@adventure-works.com bob0@adventure-works.com shammi0@adventure-works.com linda0@adventure-works.com mindy0@adventure-works.com wendy0@adventure-works.com kim0@adventure-works.com sandra0@adventure-works.com kok-ho0@adventure-works.com douglas0@adventure-works.com james0@adventure-works.com sean0@adventure-works.com nitin0@adventure-works.com diane1@adventure-works.com rebecca0@adventure-works.com rajesh0@adventure-works.com vidur0@adventure-works.com john1@adventure-works.com nancy0@adventure-works.com pilar0@adventure-works.com david3@adventure-works.com david4@adventure-works.com laura0@adventure-works.com margie0@adventure-works.com zainal0@adventure-works.com lorraine0@adventure-works.com fadi0@adventure-works.com ryan0@adventure-works.com candy0@adventure-works.com nuan0@adventure-works.com william0@adventure-works.com bjorn0@adventure-works.com scott0@adventure-works.com michael1@adventure-works.com lane0@adventure-works.com pete0@adventure-works.com dan0@adventure-works.com david5@adventure-works.com lolan0@adventure-works.com paula1@adventure-works.com mary0@adventure-works.com mindaugas0@adventure-works.com eric0@adventure-works.com ken0@adventure-works.com jason0@adventure-works.com mark0@adventure-works.com janeth0@adventure-works.com marc0@adventure-works.com gigi0@adventure-works.com paul1@adventure-works.com frank0@adventure-works.com fran√ßois0@adventure-works.com diane2@adventure-works.com jill0@adventure-works.com angela0@adventure-works.com matthias0@adventure-works.com bryan0@adventure-works.com jeff0@adventure-works.com eugene0@adventure-works.com barbara0@adventure-works.com chris0@adventure-works.com sean1@adventure-works.com dan1@adventure-works.com mark1@adventure-works.com bryan1@adventure-works.com houman0@adventure-works.com sairaj0@adventure-works.com michiko0@adventure-works.com benjamin0@adventure-works.com cynthia0@adventure-works.com kathie0@adventure-works.com britta0@adventure-works.com brian0@adventure-works.com david6@adventure-works.com laura1@adventure-works.com michael2@adventure-works.com andy0@adventure-works.com yuhong0@adventure-works.com robert0@adventure-works.com andreas0@adventure-works.com reed0@adventure-works.com linda1@adventure-works.com james1@adventure-works.com ramesh0@adventure-works.com stephanie0@adventure-works.com samantha0@adventure-works.com tawana0@adventure-works.com denise0@adventure-works.com hao0@adventure-works.com alex0@adventure-works.com eugene1@adventure-works.com brandon0@adventure-works.com dylan0@adventure-works.com shane0@adventure-works.com john2@adventure-works.com karen0@adventure-works.com jose0@adventure-works.com mandar0@adventure-works.com mikael0@adventure-works.com sameer0@adventure-works.com dragan0@adventure-works.com carol0@adventure-works.com rob1@adventure-works.com don0@adventure-works.com alan0@adventure-works.com david7@adventure-works.com baris0@adventure-works.com michael3@adventure-works.com steve0@adventure-works.com suchitra0@adventure-works.com karen1@adventure-works.com terrence0@adventure-works.com barbara1@adventure-works.com chad0@adventure-works.com rostislav0@adventure-works.com belinda0@adventure-works.com katie0@adventure-works.com russell1@adventure-works.com jack0@adventure-works.com andrew0@adventure-works.com nicole0@adventure-works.com frank1@adventure-works.com peter1@adventure-works.com anibal0@adventure-works.com ken1@adventure-works.com grant0@adventure-works.com michael4@adventure-works.com lionel0@adventure-works.com thomas0@adventure-works.com jimmy0@adventure-works.com michael5@adventure-works.com lori0@adventure-works.com arvind0@adventure-works.com stefen0@adventure-works.com hazem0@adventure-works.com janet0@adventure-works.com elizabeth0@adventure-works.com terry0@adventure-works.com john3@adventure-works.com merav0@adventure-works.com brian1@adventure-works.com kitti0@adventure-works.com jay0@adventure-works.com jan0@adventure-works.com brenda0@adventure-works.com andrew1@adventure-works.com chris1@adventure-works.com chris2@adventure-works.com shelley0@adventure-works.com gabe0@adventure-works.com mike0@adventure-works.com michael6@adventure-works.com gary1@adventure-works.com charles0@adventure-works.com ebru0@adventure-works.com sylvester0@adventure-works.com brian2@adventure-works.com linda2@adventure-works.com betsy0@adventure-works.com magnus0@adventure-works.com karan0@adventure-works.com mary1@adventure-works.com kevin2@adventure-works.com mihail0@adventure-works.com bonnie0@adventure-works.com fukiko0@adventure-works.com hung-fu0@adventure-works.com gordon0@adventure-works.com kimberly0@adventure-works.com kim1@adventure-works.com sandeep0@adventure-works.com prasanna0@adventure-works.com frank2@adventure-works.com min0@adventure-works.com eric1@adventure-works.com eric2@adventure-works.com pat0@adventure-works.com maciej0@adventure-works.com erin0@adventure-works.com patrick0@adventure-works.com frank3@adventure-works.com ed0@adventure-works.com christopher0@adventure-works.com patrick1@adventure-works.com krishna0@adventure-works.com lori1@adventure-works.com danielle0@adventure-works.com sootha0@adventure-works.com michael7@adventure-works.com randy0@adventure-works.com john4@adventure-works.com jack1@adventure-works.com olinda0@adventure-works.com stuart1@adventure-works.com jo1@adventure-works.com ben0@adventure-works.com tom0@adventure-works.com ovidiu0@adventure-works.com annette0@adventure-works.com janice0@adventure-works.com reinout0@adventure-works.com michael8@adventure-works.com stephen0@adventure-works.com wanida0@adventure-works.com sharon0@adventure-works.com john5@adventure-works.com mary2@adventure-works.com brian3@adventure-works.com sheela0@adventure-works.com michael9@adventure-works.com linda3@adventure-works.com jillian0@adventure-works.com garrett1@adventure-works.com tsvi0@adventure-works.com pamela0@adventure-works.com shu0@adventure-works.com jos√©1@adventure-works.com david8@adventure-works.com amy0@adventure-works.com jae0@adventure-works.com ranjit0@adventure-works.com tete0@adventure-works.com syed0@adventure-works.com rachel0@adventure-works.com lynn0@adventure-works.com 320-555-0195 150-555-0189 212-555-0187 612-555-0100 168-555-0183 913-555-0172 903-555-0145 145-555-0130 849-555-0139 206-555-0180 122-555-0189 819-555-0175 424-555-0189 508-555-0165 984-555-0185 632-555-0129 328-555-0150 435-555-0113 202-555-0151 925-555-0114 913-555-0196 413-555-0136 332-555-0150 166-555-0162 113-555-0173 115-555-0179 147-555-0160 656-555-0119 138-555-0128 523-555-0175 668-555-0130 609-555-0179 952-555-0178 943-555-0196 937-555-0137 333-555-0173 963-555-0134 794-555-0159 218-555-0126 286-555-0189 164-555-0164 685-555-0120 786-555-0144 992-555-0194 818-555-0192 399-555-0176 778-555-0141 299-555-0113 846-555-0157 639-555-0164 191-555-0112 669-555-0150 712-555-0119 910-555-0116 319-555-0139 714-555-0138 499-555-0125 932-555-0161 602-555-0194 679-555-0113 688-555-0192 518-555-0199 901-555-0125 434-555-0133 226-555-0197 623-555-0155 611-555-0116 793-555-0179 612-555-0171 522-555-0147 248-555-0134 309-555-0129 896-555-0168 999-555-0155 808-555-0172 119-555-0117 420-555-0173 143-555-0173 815-555-0138 314-555-0113 373-555-0137 153-555-0186 172-555-0130 970-555-0118 577-555-0185 373-555-0142 986-555-0177 777-555-0141 818-555-0128 204-555-0115 845-555-0184 935-555-0116 208-555-0114 920-555-0177 913-555-0184 148-555-0145 199-555-0117 391-555-0138 454-555-0119 200-555-0117 768-555-0123 166-555-0159 477-555-0132 582-555-0178 476-555-0119 531-555-0183 637-555-0120 260-555-0119 697-555-0142 571-555-0179 147-555-0179 540-555-0191 234-555-0169 185-555-0186 727-555-0112 158-555-0191 785-555-0110 361-555-0180 510-555-0121 150-555-0194 139-555-0120 712-555-0113 350-555-0167 241-555-0191 119-555-0192 200-555-0112 205-555-0132 653-555-0144 417-555-0154 935-555-0199 180-555-0136 500-555-0159 984-555-0148 533-555-0111 352-555-0138 446-555-0118 955-555-0169 110-555-0182 646-555-0185 615-555-0110 441-555-0195 118-555-0110 965-555-0155 589-555-0147 181-555-0124 678-555-0110 696-555-0157 870-555-0122 182-555-0134 594-555-0110 587-555-0114 368-555-0113 869-555-0119 806-555-0136 819-555-0198 173-555-0179 429-555-0137 181-555-0156 810-555-0178 201-555-0163 746-555-0164 587-555-0115 140-555-0132 309-555-0170 990-555-0172 117-555-0185 609-555-0153 238-555-0116 100-555-0174 438-555-0172 118-555-0177 164-555-0114 156-555-0199 712-555-0170 753-555-0129 654-555-0177 110-555-0115 822-555-0145 559-555-0175 751-555-0134 319-555-0126 809-555-0133 517-555-0122 552-555-0111 908-555-0159 508-555-0129 167-555-0139 310-555-0133 106-555-0120 949-555-0174 955-555-0131 817-555-0186 450-555-0152 278-555-0118 927-555-0168 296-555-0121 289-555-0196 848-555-0163 165-555-0113 869-555-0125 393-555-0186 318-555-0137 138-555-0118 663-555-0172 224-555-0187 313-555-0196 785-555-0132 407-555-0165 139-555-0131 142-555-0139 207-555-0192 575-555-0126 315-555-0144 991-555-0184 310-555-0117 927-555-0150 330-555-2568 110-555-0112 931-555-0118 202-555-0187 492-555-0174 730-555-0117 916-555-0165 405-555-0171 583-555-0182 447-555-0186 283-555-0185 555-555-0113 733-555-0128 264-555-0150 520-555-0177 497-555-0181 230-555-0144 123-555-0167 166-555-0156 129-555-0199 163-555-0147 590-555-0152 680-555-0118 265-555-0195 720-555-0158 237-555-0128 842-555-0158 413-555-0124 203-555-0196 919-555-0140 153-555-0166 425-555-0117 491-555-0183 295-555-0161 500-555-0172 325-555-0137 582-555-0148 961-555-0122 254-555-0114 521-555-0113 306-555-0186 539-555-0149 228-555-0159 151-555-0113 719-555-0181 125-555-0196 473-555-0117 370-555-0163 465-555-0156 238-555-0197 708-555-0141 970-555-0138 486-555-0150 124-555-0114 716-555-0127 210-555-0193 257-555-0154 883-555-0116 517-555-0117 922-555-0165 664-555-0112 340-555-0193 330-555-0120 185-555-0169 740-555-0182 775-555-0164 1 (11) 500 555-0145 1 (11) 500 555-0117 615-555-0153 926-555-0182 1 (11) 500 555-0140 1 (11) 500 555-0190 M S Guy Gilbert Kevin Brown Roberto Tamburello Rob Walters Thierry D'Hers David Bradley JoLynn Dobney Ruth Ellerbrock Gail Erickson Barry Johnson Jossef Goldberg Terri Duffy Sidney Higa Taylor Maxwell Jeffrey Ford Jo Brown Doris Hartwig John Campbell Diane Glimp Steven Selikoff Peter Krebs Stuart Munson Greg Alderson David Johnson Zheng Mu Ivo Salmre Paul Komosinski Ashvini Sharma Kendall Keil Paula Barreto de Mattos Alejandro McGuel Garrett Young Jian Shuo Wang Susan Eaton Vamsi Kuppa Alice Ciccu Simon Rapier Jinghao Liu Michael Hines Yvonne McKay Peng Wu Jean Trenary Russell Hunter A. Scott Wright Fred Northup Sariya Harnpadoungsataya Willis Johnson Jun Cao Christian Kleinerman Susan Metters Reuben D'sa Kirk Koenigsbauer David Ortiz Tengiz Kharatishvili Hanying Feng Kevin Liu Annik Stahl Suroor Fatima Deborah Poe Jim Scardelis Carole Poland George Li Gary Yukish Cristian Petculescu Raymond Sam Janaina Bueno Bob Hohman Shammi Mohamed Linda Moschell Mindy Martin Wendy Kahn Kim Ralls Sandra Re√°tegui Alayo Kok-Ho Loh Douglas Hite James Kramer Sean Alexander Nitin Mirchandani Diane Margheim Rebecca Laszlo Rajesh Patel Vidur Luthra John Evans Nancy Anderson Pilar Ackerman David Yalovsky David Hamilton Laura Steele Margie Shoop Zainal Arifin Lorraine Nay Fadi Fakhouri Ryan Cornelsen Candy Spoon Nuan Yu William Vong Bjorn Rettig Scott Gode Michael Rothkugel Lane Sacksteder Pete Male Dan Bacon David Barber Lolan Song Paula Nartker Mary Gibson Mindaugas Krapauskas Eric Gubbels Ken S√°nchez Jason Watters Mark Harrington Janeth Esteves Marc Ingle Gigi Matthew Paul Singh Frank Lee Fran√ßois Ajenstat Diane Tibbott Jill Williams Angela Barbariol Matthias Berndt Bryan Baker Jeff Hay Eugene Zabokritski Barbara Decker Chris Preston Sean Chai Dan Wilson Mark McArthur Bryan Walton Houman Pournasseh Sairaj Uddin Michiko Osada Benjamin Martin Cynthia Randall Kathie Flood Britta Simon Brian Lloyd David Liu Laura Norman Michael Patten Andy Ruth Yuhong Li Robert Rounthwaite Andreas Berglund Reed Koch Linda Randall James Hamilton Ramesh Meyyappan Stephanie Conroy Samantha Smith Tawana Nusbaum Denise Smith Hao Chen Alex Nayberg Eugene Kogan Brandon Heidepriem Dylan Miller Shane Kim John Chen Karen Berge Jose Lugo Mandar Samant Mikael Sandberg Sameer Tejani Dragan Tomic Carol Philips Rob Caron Don Hall Alan Brewer David Lawrence Baris Cetinok Michael Ray Steve Masters Suchitra Mohan Karen Berg Terrence Earls Barbara Moreland Chad Niswonger Rostislav Shabalin Belinda Newman Katie McAskill-White Russell King Jack Richins Andrew Hill Nicole Holliday Frank Miller Peter Connelly Anibal Sousa Ken Myer Grant Culbertson Michael Entin Lionel Penuchot Thomas Michaels Jimmy Bischoff Michael Vanderhyde Lori Kane Arvind Rao Stefen Hesse Hazem Abolrous Janet Sheperdigian Elizabeth Keyser Terry Eminhizer John Frum Merav Netz Brian LaMee Kitti Lertpiriyasuwat Jay Adams Jan Miksovsky Brenda Diaz Andrew Cencini Chris Norred Chris Okelberry Shelley Dyck Gabe Mares Mike Seamans Michael Raheem Gary Altman Charles Fitzgerald Ebru Ersan Sylvester Valdez Brian Goldstein Linda Meisner Betsy Stadick Magnus Hedlund Karan Khanna Mary Baker Kevin Homer Mihail Frintu Bonnie Kearney Fukiko Ogisu Hung-Fu Ting Gordon Hee Kimberly Zimmerman Kim Abercrombie Sandeep Kaliyath Prasanna Samarawickrama Frank Pellow Min Su Eric Brown Eric Kurjan Pat Coleman Maciej Dusza Erin Hagens Patrick Wedge Frank Martinez Ed Dudenhoefer Christopher Hill Patrick Cook Krishna Sunkammurali Lori Penor Danielle Tiedt Sootha Charncherngkha Michael Zwilling Randy Reeves John Kane Jack Creasey Olinda Turner Stuart Macrae Jo Berry Ben Miller Tom Vande Velde Ovidiu Cracium Annette Hill Janice Galvin Reinout Hillmann Michael Sullivan Stephen Jiang Wanida Benshoof Sharon Salavaria John Wood Mary Dempsey Brian Welcker Sheela Word Michael Blythe Linda Mitchell Jillian Carson Garrett Vargas Tsvi Reiter Pamela Ansman-Wolfe Shu Ito Jos√© Saraiva David Campbell Amy Alberts Jae Pak Ranjit Varkey Chudukatil Tete Mensa-Annan Syed Abbas Rachel Valdez Lynn Tsoflias 320-555-0195 150-555-0189 212-555-0187 612-555-0100 168-555-0183 913-555-0172 903-555-0145 145-555-0130 849-555-0139 206-555-0180 122-555-0189 819-555-0175 424-555-0189 508-555-0165 984-555-0185 632-555-0129 328-555-0150 435-555-0113 202-555-0151 925-555-0114 913-555-0196 413-555-0136 332-555-0150 166-555-0162 113-555-0173 115-555-0179 147-555-0160 656-555-0119 138-555-0128 523-555-0175 668-555-0130 609-555-0179 952-555-0178 943-555-0196 937-555-0137 333-555-0173 963-555-0134 794-555-0159 218-555-0126 286-555-0189 164-555-0164 685-555-0120 786-555-0144 992-555-0194 818-555-0192 399-555-0176 778-555-0141 299-555-0113 846-555-0157 639-555-0164 191-555-0112 669-555-0150 712-555-0119 910-555-0116 319-555-0139 714-555-0138 499-555-0125 932-555-0161 602-555-0194 679-555-0113 688-555-0192 518-555-0199 901-555-0125 434-555-0133 226-555-0197 623-555-0155 611-555-0116 793-555-0179 612-555-0171 522-555-0147 248-555-0134 309-555-0129 896-555-0168 999-555-0155 808-555-0172 119-555-0117 420-555-0173 143-555-0173 815-555-0138 314-555-0113 373-555-0137 153-555-0186 172-555-0130 970-555-0118 577-555-0185 373-555-0142 986-555-0177 777-555-0141 818-555-0128 204-555-0115 845-555-0184 935-555-0116 208-555-0114 920-555-0177 913-555-0184 148-555-0145 199-555-0117 391-555-0138 454-555-0119 200-555-0117 768-555-0123 166-555-0159 477-555-0132 582-555-0178 476-555-0119 531-555-0183 637-555-0120 260-555-0119 697-555-0142 571-555-0179 147-555-0179 540-555-0191 234-555-0169 185-555-0186 727-555-0112 158-555-0191 785-555-0110 361-555-0180 510-555-0121 150-555-0194 139-555-0120 712-555-0113 350-555-0167 241-555-0191 119-555-0192 200-555-0112 205-555-0132 653-555-0144 417-555-0154 935-555-0199 180-555-0136 500-555-0159 984-555-0148 533-555-0111 352-555-0138 446-555-0118 955-555-0169 110-555-0182 646-555-0185 615-555-0110 441-555-0195 118-555-0110 965-555-0155 589-555-0147 181-555-0124 678-555-0110 696-555-0157 870-555-0122 182-555-0134 594-555-0110 587-555-0114 368-555-0113 869-555-0119 806-555-0136 819-555-0198 173-555-0179 429-555-0137 181-555-0156 810-555-0178 201-555-0163 746-555-0164 587-555-0115 140-555-0132 309-555-0170 990-555-0172 117-555-0185 609-555-0153 238-555-0116 100-555-0174 438-555-0172 118-555-0177 164-555-0114 156-555-0199 712-555-0170 753-555-0129 654-555-0177 110-555-0115 822-555-0145 559-555-0175 751-555-0134 319-555-0126 809-555-0133 517-555-0122 552-555-0111 908-555-0159 508-555-0129 167-555-0139 310-555-0133 106-555-0120 949-555-0174 955-555-0131 817-555-0186 450-555-0152 278-555-0118 927-555-0168 296-555-0121 289-555-0196 848-555-0163 165-555-0113 869-555-0125 393-555-0186 318-555-0137 138-555-0118 663-555-0172 224-555-0187 313-555-0196 785-555-0132 407-555-0165 139-555-0131 142-555-0139 207-555-0192 575-555-0126 315-555-0144 991-555-0184 310-555-0117 927-555-0150 330-555-2568 110-555-0112 931-555-0118 202-555-0187 492-555-0174 730-555-0117 916-555-0165 405-555-0171 583-555-0182 447-555-0186 283-555-0185 555-555-0113 733-555-0128 264-555-0150 520-555-0177 497-555-0181 230-555-0144 123-555-0167 166-555-0156 129-555-0199 163-555-0147 590-555-0152 680-555-0118 265-555-0195 720-555-0158 237-555-0128 842-555-0158 413-555-0124 203-555-0196 919-555-0140 153-555-0166 425-555-0117 491-555-0183 295-555-0161 500-555-0172 325-555-0137 582-555-0148 961-555-0122 254-555-0114 521-555-0113 306-555-0186 539-555-0149 228-555-0159 151-555-0113 719-555-0181 125-555-0196 473-555-0117 370-555-0163 465-555-0156 238-555-0197 708-555-0141 970-555-0138 486-555-0150 124-555-0114 716-555-0127 210-555-0193 257-555-0154 883-555-0116 517-555-0117 922-555-0165 664-555-0112 340-555-0193 330-555-0120 185-555-0169 740-555-0182 775-555-0164 1 (11) 500 555-0145 1 (11) 500 555-0117 615-555-0153 926-555-0182 1 (11) 500 555-0140 1 (11) 500 555-0190        M F       fffffÊ(@?5^∫IÏ*@¶
+F%u¢E@‡-ê†ÿ=@        ¿B@fffffÊ*@™ÇQIùX@@PçónªO@      #@MåJÍÑ8@
+         ˝áÙ€◊9@@   ˘È∑Ø#;@	   ¶
+F%u¢5@Zıπ⁄ä=I@≠˙\m≈é7@‡-ê†ÿ,@MåJÍD2@≠˙\m≈n4@˘È∑Ø”0@   Û“o_g;@†/›$ñ0@Û“o_'%@≠˙\m≈nD@≥Ísµ;3@`Â–"€…1@        `_@Pçón;C@     Ä$@x$(^A@HPN@™ÇQIùU@∞rhëÌ‘C@¶
+F%u‚+@S£í:q:@‡-ê†ÿ<@Zıπ⁄ä=E@`Â–"€	8@     Ä#@     Ä"@     Ä)@V}Æ∂bB@∞rhëÌH@V}Æ∂bR@   ˘È∑Ø7@   *      0   	   (   R   S      X         T   O   U   P   V   Q   W   )   +      B   D   F      6   4   "   $   a   _   &   M      A   ,   /   -   1   Z   \      H   J   !   L      :      ]   <      E   C   
+   G      5   `   3   7   b   %   N   '   >      2   [       I   K         ;   =      8      .   c      ?      ^   #               9       @               Y         )      P      (   =      @         >   ;   <   ?       5   6   7      /   .   %   &   D   C   '   :   4   *   +   ,   A   B   #   8   9   $      1      2   !      -   E   3         0   "             Production Marketing Engineering Tool Design Production Control Information Services Human Resources Shipping and Receiving Quality Assurance Facilities and Maintenance Document Control Finance Research and Development Executive Purchasing Sales Yó  +ò  Lô  dô  Ôú  jô  sô  ∞õ  yô  Ñô  Öô  ñô  ùô  üô  •ô  ±ô  ∏ô  ƒô  Àô  ÷ô  Œö  œö  –ö  —ö  “ö  ”ö  ‘ö  ’ö  ÷ö  ÿö  Ÿö  ⁄ö  €ö  ‹ö  ›ö  ﬁö  ﬂö  ‡ö  ‚ö  „ö  ‰ö  Âö  Êö  Áö  Ëö  Èö  Íö  Ïö  Ìö  Óö  Ôö  ö  Òö  Úö  Ûö  ∫û  Ùö  ˆö  ˜ö  ¯ö  ˘ö  ˙ö  ˚ö  ¸ö  ˝ö  ˛ö   õ  õ  õ  õ  õ  õ  õ  õ  	õ  
+õ  õ  ﬁ°  õ  õ  õ  õ  õ  õ  õ  õ  õ  õ  õ  õ  õ  õ  õ  õ  õ  õ   õ  !õ  "õ  #õ  $õ  %õ  'õ  (õ  )õ  *õ  +õ  ,õ  -õ  .õ  /õ  gõ  <ú  =ú  @ú  Eú  Kú  Lú  Oú  Pú  Sú  Wú  Zú  ]ú  _ú  dú  eú  iú  jú  oú  pú  qú  tú  vú  xú  yú  }ú  Äú  Ñú  Öú  àú  åú  èú  ìú  óú  òú  ôú  õú  ùú  ûú  ¨ù  ≠ù  æù  ¿ù  ≈ù   ù  Õù  ÿù  Ïù  Ûù  Ùù  ˛ù  öû  ¯ü  ]û  ûü   ü  E†  Í†  7°  Ôú  Øõ  πû  ﬁ°  ôû  ˜ü  Current System.Byte[]         @          ÜÄ `DÄ  â @ Ñ  A@äÅ –Ä ôa@
+Ç ƒÄ ôa@åÄ  Ç@
+É†(
+XÅ ã¢@
+éÉ†(
+DÅ ã¢@† Ñ √@	íÑ¿0ƒÅ „ 
+ä‡8 ñA		Ö	 1	DÇ	 $
+	
+ä
+ 9
+Ñ
+ íDA
+Ü@AƒÇ eAí†0 ÄÖá@ DÉ  ¶Aí`1Ñ Å≈à ‡ ƒÉ ÖÊAíà†0  	Ä!"DÑ Ä&Bíâ@0$Ñ	 G
+	ÄI&ƒÑ	 Äbä	†Q(
+ ¢ÄBñ
+
+¿YDÖ
+ Å•ñä
+`XÑ Å≈òä‡I*ƒÖ ÅÁ ", Cöã bDÜ  " úÄh.Ñ ÅH"ûã@p0ƒÜ )iC$ @z2 Äâ&¢å†Ä4Dá 6™C  §`j6Ñ Å !ç@H8ƒá Î" &  H:   Å#( !(ç! ä<!Dà! =,$*!"("‡I>"Ñ" ∏LD%$"#*ç#Äz>#ƒà# Ñl& #$¨$†@$	$ ç'$%êç% !B%Dâ% Å≠D(%&.$ÄaD&Ñ	& ¿)&'0é&¿Z'ƒâ' Ê*,'(2'†ë"(
+( ¬E+.()éé(`öF)Dä) /.E,$)*4) x*Ñ
+* ÄD-0*+è* †H+ƒä+ °nE. +,$+ÄiJ,, è/2,-è,`™L-Dã- âÆE04-.∂è-Ä±N.Ñ. ±œE1$./*.ÄyP/ƒã/ 26/08ê/`∫R00  F3 10‡HT1Då1 14802êê1 !V2Ñ2 ÄQF513∫2†YX3ƒå3 r6 4ºê3†Z44 Äí7:2 5>4‡¡\5Dç5 —≠F83 6@ë5‡b^6Ñ6 ”9 !7§ë6 i`7ƒç7 ÅÛ: 4!8Ñ7Äb88  ;$5!9™ë8@xd9Dé9 Å0<<6":B9` f:Ñ: ‹TG=$7#;¥í: y;ƒé;  e>8#<î;†H<< ÑÄ?9$=ì< Kh=Dè=  µ@ :%>ú= jj>Ñ> Å»A;%?êì> !l?ƒè?  ËGB<&@@? an@ @ Ä	C>=&ADî@ ”pADê A .)HD$>'B†A‡yrBÑ!B ÅUE ?'C§îB@ktCƒê!C ÄjF$@(D* C yvD"D åG@A(E6ï D@⁄xEDë"E 4∂HHBB(F"!E`zFÑ#F _ HI(C)G®ï!FÄâ|Gƒë#G ΩˆJD)H¶"G H~H$H Ñ	KE*Iñ"HÄ!ÄIDí$I &ILF*J0#IÄXJÑ%J ÄF	M G*K,ñ#J†ÇKƒí%K  m	NDH+L∆$9‡‚L&L AÉIOI+MÆñ$K¿b MDì&M †	PF,NH%L`ÈÑNÑ'N g◊IQ J,Oó%M‡ ÜOƒì'O Ñ˜	R K-P§&N†hP(P Ä
+S4L.Q6ò&OÄ≥àQDî(Q 16JT$.R*'P‡zäRÑ)R P
+U M/S¨ò'Q‡ 8Sƒî)S k
+VHN/Tê(R@ÛdT*T ªêJW/Uòò(S‡HåUDï*U Å≤
+X80V)T‡"éVÑ+V Å—JYO0W:ô)U@ZêWƒï+W Ú
+Z P1XÑ*V íX,X [JQ1Y≤ô*WÄ˘BYDñ,Y –-K\ R1Z§+XÄjNZÑ-Z ÑO]S1[¿ô+Y aî[ƒñ-[ t^ T2\J,Z`iñ\.\ Äì_<U3]¬ö,[`…ò]Dó.] ›¥K`$V3^¥-\ x^Ñ/^ ¡aLW4_Lõ-]¿M_‡ó/_ †ÓKbLW4_Ãõ-]¿M_ƒó/_ †ÓKcX4`.^†H(`0` Å dY5aú._@X aDò0a  'e %6bú/``i0bÑ1b IfZ7c@ù/a†`2cƒò1c Äig$[7d 0b@zöd2d Åïh>\7eDù0c —VeDô2e ™±LiN8f¢1d†úfÑ3f ŸÿLj$]8g¥ù1eÄxûgƒô3g Ä‰k 8h§2_@h4h4h 
+l2^8iÜù2`™†iDö4i /Mm$_9j*3f†y<jÑ5j  LnP`:kêû3g  
+kƒö5k ÄbMoRa:lÄ4h†	£l6l ÎñMpb:m¶û4i†H@mDõ6m ≠qDc;nF5j`·nÑ7n A√Mrd;o0ü5k†X"oƒõ7o ÖÊse<pò6l†I§p8p ÄtFf<q»ü6m‡È¶qDú8q f7Nu=r 7n@`rÑ9r ÄDv g=s$†7oÄiúsƒú9s ÄxwTh=tD 8‡mt:t +àNx$>u††8p y®uDù:u ¢y2i>vÜ 9q‡®JvÑ;v œNz$j?w*°9r zRwƒù;w Ö{*k?x(!:sÄI™x<x ∏O| l@y¨°:t  ¨yDû<y +}Vm@zê!;u¿!XzÑ=z  RO~n@{ò°;v@HZ{ƒû={ ÅroA|."<3¿bb|>| îÄpA}:¢<wÄY\}Dü>} Ä≠ÅXHA~>"=x‡Å~Ñ?~ Q∆OÇT\AD¢=yÄ-ƒü? *ËOÉ cBÄÑ">z ÆÄ @Ä Ñ<lCÅB£>{‡»ÑÅD†@Å Y7PÖ$qDÇ¥#?|‡y∞ÇÑ AÇ  AÜLrEÉL§?}`°Éƒ†AÉ  oPásEÑ$@~`HHÑ!BÑ ÅéàtFÖò§ @H≤ÖD°BÖ πâZuFÜê§@Ä¿"jÜÑ!CÜ Ö»PävFáñ$AÅ`Z$áƒ°Cá Áã wGà•AÇ`¥à"Dà å xGâ$%BÉÄizâD¢Dâ *ç\Hä¢•Ñ†!∑äÑ"Eä ⁄XQé^OIã¶By`(πãË¢Eã neQè^OIãé¶By`(πãƒ¢Eã neQê$%Iå*&CÖ z|å#Få ÅñëyIç&¶CÜ†HÇçD£Fç  ≠íPzJéßá`!&éÑ#Gé Ä¬Qì{Kè∞'Dà†Yèƒ£Gè „îD|Kê∆ßDâÄ·ê$Hê ¿Rï}Këò'EäÄIÜëD§Hë Ä7ñ@Lí@®@ã‡`ríÑ$Ií ÖUó`GLì()M@0ªìƒ§Iì nRò>~LîD®Eå¿—éî%Jî ´ëRôbMïƒ(Fç‡8/ïD•Jï Ø®RöÄMñö®Fé aûñÑ%Kñ Ñƒõ ÅNó$)Gè@kàóƒ•Kó ˆú$ÇNò ©FM yò&Lò ùdÉOô∂©GêÄB7ôD¶Lô ±*SûÑPö:*Hë†XBöÑ&Mö ÄMü nPõ,™HíÄ:õƒ¶Mõ Åk† ÖPú*Iì@§ú'Nú Äó°fÜPù
+™Iî‡òòùDßNù ‚¥S¢VáPû*Jï¿"êûÑ'Oû “S£QüÆ™Gñ†cíüƒßOü  ¯§XàQ†æ™Jó@†(P† TT• âR°+Kò@ D°D®P°   ¶$äR¢4´Kô y∏¢Ñ(Q¢ EßhãR£N+Lö¿≥ñ£ƒ®Q£ ÒsT®$åS§¥´Lõ‡xº§)R§ ÄÉ©jçS•¬+Mú …¶•D©R• X∑T™éT¶¨Mù†HL¶Ñ)S¶ ÑŒ´ Ußú,NûÄipßƒ©Sß È¨$èU®™¨Nü`y®*T®  ≠LêU©Ã,O††K©D™T©  /UÆV™≠O°‡Kæ™Ñ*U™  YØ ëW´ú-P¢`hV´ƒ™U´ Åq∞Z%W¨ê≠P£ $0¨+V¨ âU± íW≠º-Q§` T≠D´V≠ ±≤ ìXÆÆQ•Ä^ÆÑ+WÆ ”≥>àXØD.R¶‡–XØƒ´WØ /ÚU¥îX∞@ÆRß bö∞,X∞ ÅµloY±¬.S®@Ja±D¨X± ﬁ3V∂$ïY≤™ÆS© z¢≤Ñ,Y≤ ÄV∑ñZ≥&/T™`J
+≥ƒ¨Y≥ Äb∏ó[¥ñØT´†X¥-Z¥ ÉπPò[µê/U¨`!µD≠Zµ Ö†V∫)\∂∞U≠†H¿∂Ñ-[∂ Ä«ªZô\∑0VÆ¿".∑ƒ≠[∑ ÅËVºö]∏ê∞VØ@ F∏.\∏ WΩ õ]πú0W∞ÄhlπDÆ\π (æ$g^∫ ±I±Äyn∫Ñ.]∫ ÅIø"^ª±W≤ tjªƒÆ]ª ©hW¿ú^º1X≥Äa®º/^º Ç¡ a_Ω§±X¥`ixΩDØ^Ω  ∂¬dù`æ62Y‡AuæÑ/_æ ± W√$%`ø*≤YµÄy™øƒØ_ø ÅÏƒûa¿∞2Z∂@ZÄ¿0`¿ ≈ üa¡¨≤Z∑@ ~¡D∞`¡ Ä+∆(†a¬®2[ÅÄâv¬Ñ0a¬ 8L«%a√¶≤[∏ÄI¨√ƒ∞a√  k»V°aƒê2\π‡ \ƒ1bƒ ÖçX…h¢b≈N≥\∫Ä∞f≈D±b≈ ¥X £b∆.3]ª‡`Æ∆Ñ1c∆ ÿÀn§b«≥]º`R«ƒ±c« √ÊXÃj•c»¬3^Ω`…∫»2d» \YÕ$¶d…4¥^æ |…D≤d… Ñ#Œ2ßd 4_ø†©H Ñ2e  àNYœeÀò¥_¿‡I¬Àƒ≤eÀ u–®eÃî4`¡‡H†Ã3fÃ è—LxeÕÃ¥`¬‡ÕD≥fÕ †ØY“$©fŒ*5a√ yƒŒÑ3gŒ ƒ” ™gœºµa@åœƒ≥gœ ÅÚ‘´g–ò5bƒ¿J∆–4h– ’8¨g—êµb≈† p—D¥h— )Z÷öh“:6c∆†Xé“Ñ4i“ ÅQ◊:ph”>∂c« ¡ê”ƒ¥i” PrZÿ pi‘Ñ6d»Äî‘5j‘ îŸ≠i’¿∂d…‡a¥’Dµj’ ≥⁄ Æj÷$7e Äh∂÷Ñ5k÷ Äÿ€lØj◊B∑eÀ Ió◊ƒµk◊ €ÛZ‹f%kÿ»7fÃ Xïÿ6lÿ b[›p:lŸP∏fÕ@d!ŸD∂lŸ J'[ﬁ ∞m⁄º8gŒÄ ¬⁄Ñ6m⁄ Uﬂ±n€Rπgœ‡1d€ƒ∂m€ Åp‡≤o‹ö9h–‡`º‹7n‹ ÄÉ· xo› πh—`l¶›D∑n› ∑‚h@pﬁN:i“‡≤úﬁÑ7oﬁ Ùÿ[„≥qﬂ‘∫i”‡0¢ﬂƒ∑oﬂ Öˆ‰r¥r‡8;j‘`j%‡8p‡ H\Â µs·ºªj’@ ≤·D∏p· 9Ê^t‚Rº:÷@0™‚Ñ8q‚ ÑLÁt„R<k÷†0P„ƒ∏q„ pË ∂u‰ ºk◊Äl∫‰9r‰ éÈ∑vÂ=lÿ‡1ƒÂDπrÂ §Íh∏wÊŒΩlŸ†±∂ÊÑ9sÊ ÿ\ÎπxÁ>m⁄Äa∏ÁƒπsÁ ÂÏh∫yËŒæm€`±6Ë:tË 
+]ÌªzÈT?n‹Ä0>ÈD∫tÈ Ö,Ó C{ÍÑøn›Ä ¿ÍÑ:.Í ÑáÔ º|ÎJ@oﬁ‡jFÎƒ:uÎ NΩ}Ïö¿oﬂ`bÏªuÏ ÄcÒhg~ÌNAp‡¿≤`ÌD;vÌ ì]ÚæÓö¡p·@cÓÑªvÓ  •Û `Ô ¡ ‚`ifÔƒ;wÔ Ä‘Ùh`ÄNBq„¿≤4ºw qÍ]ıtøÄÒV¬qﬁ q≈ÒD<xÒ Iˆ ¿ÅÚºBr‰ ∆ÚÑºxÚ 1˜h¡ÇÛN√rÂ†∞tÛƒ<yÛ ıJ^¯¬ÉÙ‘Csÿ@2vÙΩyÙ l˘ gÑıJƒsÊ@h,ıD=zı  à˙ √ÑˆDtÁ@ *ˆÑΩzˆ Åß˚ƒÖ˜“ƒVË`2ä˜ƒ={˜  –¸ ¬Ü¯J≈tÈ†hò¯æ{¯ ÄÙ˝≈á˘öEuÍ `˘D>|˘ ˛t°à˙V∆uÎ qQ˙Ñæ|˙ L0ˇ∆â˚‘FvÏ@2<˚ƒ>}˚ L E«ä¸F«vÌÄ·¸ø}¸ ¿e_%ä˝<GwÓ†h˝D?~˝ ï»ä˛<«wÔÄæ˛Ñø~˛  πãˇ“G\Ä1Rˇƒ?ˇ Å–!ôå KHxÒÄiÑ ¿ ˜…çõ»xÚ@b∞E@Ä uéWIyÛ†qÖ¿ÄH$ uè◊…yÙ`qã≈@ÅLP i êO IıÄ±z¡Åpj`	Àë’JzË†0|E¡|Ä6
+ÃíÀzˆ¿QüÖAÇôÑ`wÕìœÀV˜`yâ≈¡Çt∂`	ŒîL{¯† ®BÉ¬`wœï	œÃ{ˆ‡yy	E¬É	pˆ`y%ñ
+M|˘ Ñ±
+ÖBÑ
+a{–óŸÕ|˙†ãµ≈¬Ñz3·—òN}´†&CÖåBa“ôãŒ}˚Ä8ºE√Öñca3öO~¸`©ÖCÜâèa^õáœ~˜‡(≈√Üç†a}xúP˝¿íoDá˚…a”ù€–˛ ôOqƒá˜Ôa”ù[—˛ ôOyƒá˜Ôa”ù€—˛ ôOEƒá˜ÔaÅ%û]RÄˇB£AÖDà{‚Å@û]“Ä E¢√≈ƒà~5‚Å‘û]RÅ†¡EâˇG‚Åû]“ÅI†[E≈â˙r‚Å’û]RÇ´§øÖEäzô‚Å÷û]“Çç¢•≈≈äˇ∑‚Å◊û]RÉ°iFãz’‚Åÿû]“É…§UE∆ãzÒ‚ Åû]RM†áÖFå˚„!ÉŸüŸRÑaä≈∆å~ „"Å⁄†_”Ñ	è†Gç˛K„#Å€†_SÖ
+Q†9E«ç{k„$Å‹°›”ÖÌ†ÉÖGézç„%Ö›¢YTÜaäE≈«éz†„&Åﬁ£ ﬂThì†≠ Hè À„'Åﬂ£!·‘Üı°;!E»è!ˇÎ„

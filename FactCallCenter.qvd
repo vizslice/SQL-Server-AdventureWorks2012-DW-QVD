@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>50621</QvBuildNo>
+   <CreatorDoc>C:\Users\QLIK\Documents\Qlik\Sense\Apps\SQL Extractor.qvf</CreatorDoc>
+   <CreateUtcTime>2019-09-09 14:11:02</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>FactCallCenter</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>FactCallCenterID</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>120</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>600</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>DateKey</FieldName>
+       <BitOffset>7</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>30</NoOfSymbols>
+       <Offset>600</Offset>
+       <Length>150</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>WageType</FieldName>
+       <BitOffset>39</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>ASCII</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>750</Offset>
+       <Length>18</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Shift</FieldName>
+       <BitOffset>40</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>ASCII</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>4</NoOfSymbols>
+       <Offset>768</Offset>
+       <Length>24</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>LevelOneOperators</FieldName>
+       <BitOffset>42</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>5</NoOfSymbols>
+       <Offset>792</Offset>
+       <Length>25</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>LevelTwoOperators</FieldName>
+       <BitOffset>45</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>10</NoOfSymbols>
+       <Offset>817</Offset>
+       <Length>50</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>TotalOperators</FieldName>
+       <BitOffset>49</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>17</NoOfSymbols>
+       <Offset>867</Offset>
+       <Length>85</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Calls</FieldName>
+       <BitOffset>18</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>110</NoOfSymbols>
+       <Offset>952</Offset>
+       <Length>550</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>AutomaticResponses</FieldName>
+       <BitOffset>25</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>104</NoOfSymbols>
+       <Offset>1502</Offset>
+       <Length>520</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Orders</FieldName>
+       <BitOffset>32</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>105</NoOfSymbols>
+       <Offset>2022</Offset>
+       <Length>525</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>IssuesRaised</FieldName>
+       <BitOffset>64</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>4</NoOfSymbols>
+       <Offset>2547</Offset>
+       <Length>20</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>AverageTimePerIssue</FieldName>
+       <BitOffset>12</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>50</NoOfSymbols>
+       <Offset>2567</Offset>
+       <Length>250</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>ServiceGrade</FieldName>
+       <BitOffset>54</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>19</NoOfSymbols>
+       <Offset>2817</Offset>
+       <Length>171</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Date</FieldName>
+       <BitOffset>59</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>TIMESTAMP</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt>YYYY-MM-DD hh:mm:ss.ffffff</Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>30</NoOfSymbols>
+       <Offset>2988</Offset>
+       <Length>150</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+         <String>$timestamp</String>
+         <String>$date</String>
+       </Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>9</RecordByteSize>
+   <NoOfRecords>120</NoOfRecords>
+   <Offset>3138</Offset>
+   <Length>1080</Length>
+   <Lineage></Lineage>
+   <Comment></Comment>
+ </QvdTableHeader>
+                         	   
+                                                                      !   "   #   $   %   &   '   (   )   *   +   ,   -   .   /   0   1   2   3   4   5   6   7   8   9   :   ;   <   =   >   ?   @   A   B   C   D   E   F   G   H   I   J   K   L   M   N   O   P   Q   R   S   T   U   V   W   X   Y   Z   [   \   ]   ^   _   `   a   b   c   d   e   f   g   h   i   j   k   l   m   n   o   p   q   r   s   t   u   v   w   x   ’Q3÷Q3◊Q3ÿQ3ŸQ3⁄Q3€Q3‹Q3›Q3ﬁQ3ﬂQ3‡Q3·Q3‚Q3„Q3‰Q3ÂQ3ÊQ3ÁQ3ËQ3ÈQ3ÍQ3ÎQ3ÏQ3ÌQ3ÓQ3ÔQ3Q3ÒQ3ÚQ3weekday holiday AM PM1 PM2 midnight                    
+                  	         	            
+                                 ,       ï  Ö  f  €       ’  ≤   †  ó  "  ﬂ   x  à  o  ·   ı   O  ê  b   M  ‹  i   £  ë  4  À   u  ò  Q  ƒ   E  4    å   Í   1  ƒ  ™   ◊   ~  `  —   i  Œ  â   á  Ω  à  q   6    H   
+  Û  ù  û   m  ¨     Å   ‘  √  ·  ç   Æ  ©  B  p    t  &    å  ó  ‰   )  ˇ  ®   |  Ò  Æ   ≠  °  ª  ¨   &  ù  Ω       v  @    é  Á  Ô   =    -  Ë   A  D  Ç     x  Á   Õ  ì  ¡          å   ™   R  4  t     Â   ”   `     Á   ‹  o   £   ◊     A     6  U   #  
+  ü  |   ¸     –   ˆ   ¢   Ó  T   ¨   ù   %  é   ò  Î   ö   ô  T  m       J   À   —   :   ß   }  j   ‚   õ  i   N  Z  Q   /  H  w  ´   ∑   o  V   ‡   1  ∏  ¿   ≤   t  Ø  z     Ù   L  Ä   8    »  {   ‰     Ò   Y    ¥   ﬁ   `  ©     ”  ì   œ   ó  e   £  è  â   ⁄   á  ›   s   U  ˚   ˇ   ¢   Ω   }  3  à     
+  ≤   Ç   	    ´  ï   ì       @   ˜   >  :  K   4  ¯   {  ˝     c  ë   Û   Ÿ   n  [   ú   €   r   ò     ¥  ˙   ê   â  P  T   (  Á  S   ›   √   Ú   2   ≥   x  &  t   È   /  L   $  A  ê  `   *  "  u  ƒ     X  ·     ‚  û   ¡   J  W  v   ‡     8  p   @    q   ÷  å   «   |  ˛   π   ¬   a  ∆   É  ≈   Ô     ≥  a   `  º  °   w  }                O   ^   \   I   :   S   U   D   T   F   L   @   Q   R   H   W   ]   J   M   _   >   `   g   A   B   q   E   =   V   G   x   h   P   N   K   a   1   8   Z   Y   [   C   ,   2   X   9   f   <   n   4   ∏ÖÎQ∏û?∏ÖÎQ∏æ?ÏQ∏ÖÎ¡?{ÆG·z¥?
+◊£p=
+∑?{ÆG·zƒ?{ÆG·z§?öôôôôôπ?§p=
+◊£¿?∏ÖÎQ∏Æ?öôôôôô©?)\è¬ı(º?√ı(\è¬≈?ÏQ∏ÖÎ±?333333√?öôôôôô…?R∏ÖÎQ»?·zÆG· ?
+◊£p=
+«? £  !£  "£  #£  $£  %£  &£  '£  (£  )£  *£  +£  ,£  -£  .£  /£  0£  1£  2£  3£  4£  5£  6£  7£  8£  9£  :£  ;£  <£  =£           !B  FÑ 0k∆  Ñ@Ä	ÖP
+% Ü`¶L	 ápÀé	 Å àÄH	$âÂ¬
+ë(ä&J°,ãk å±0åÄ» çë4ç%J é¡8éÆê è<è” “@ êS!‚D"ë·î"2H$íÊ! ÚL&ì”V îQ(Ä»(ïU
+% ) ñ"!*NÃ*ó“X,ÀŒ( c\.à¿2 3a0!¬1 √d2Æ1 Ci4k1úmÄà8ùÛp6Â;û√t8Fƒ:üSy:k∆9 d}< @@ !4Ä> ÂBC"ÙÑ@!¶ÃA#tâB"sN@§ÑçD#  J •ÑêF$Â¬H ¶îîHNI ßîô%kÜK(ÖúJ¶ÄQ)•°<ß!ÇQ*µuL®.ŸQ +ï§N©[R ¨e®P™  Z≠≈≠R´% [Æ’±T¨FDZ ØÂµV≠”÷Y0ˆπX.Ä»b1æ
+!a2¬Z/&ùb3≈\0sNc ¥& ^1 ÄjµÕ`2ÂBh ∂¶.3&Jj∑—b4ÀŒh 8'‘d5Ä»q 9ßŸf6!Br:˜‹<7Fƒr ;∑·h8”ñr º'Êj9Äàx Ω'Ël:!yæ«Ì8+FDx ø7Ún;À| @¯Ùp<ÄÉA(˘"=!BÇB®˝r>¶åÇCHu?séÅƒw¿Äàä≈ÿy¡%Jà∆X{¬NÃà«h7õöäH…}√à¿í IyƒÂ¬ë JâÅ≈&
+íKyÇ∞sNêÃ"ÖF ÄôÕ©%áG%
+ôŒÈ(âHÆPõœô.ãIk∆òP™2çJ Ä¢Q 4èK!¢R∫⁄êLF°S :ìMsN£‘∫PîNÄ»®’ <óOÂ¬®÷*@ôPFƒ´◊öFõQkF®X[Hùß »±YkMü“% ±Z€R°”FD≥[+U£‘sŒ± ‹KY•F @∫›;`rÂBª ﬁÀ\ßU&J∫ ﬂb£Vk∆π`‹d©◊ ¿¡ a|h´ÿ%ä√bÃn≠ŸN¡cÏrO⁄@ƒ‰LuØ€ÄHÀ Âåx±œ%J»Ê¸~≥‹FD  Á,Ä…kÜ»h=Ñµ) Ä—imà∑]% –jMåπ^N—kmíª_kå—Ï≠î`à ŸÌÍºaÂ¬ÿÓ]ôøb¶L€Ôú¡csﬁŸpëì @· q£√d%
+„rû•≈e&
+‰s´«fk∆‡ Ù<…ÄàÍ ı¨Àg%–Ëˆ˛∞Õ¶Î ˜~∂œhk†Ï
